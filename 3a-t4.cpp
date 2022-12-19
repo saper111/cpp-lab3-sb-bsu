@@ -14,7 +14,7 @@ if (cin.fail()) { cout << "Fail" << endl;
 cin.clear();  
 cin.ignore();  
 cout << "Enter once more = ";  
-cin >> number;}  //asking for integer one more time
+cin >> number;}
 sum_k += number; i++;  
 } while (i <= k);  
 cout << " The total sum of " << k << " integers is: "  << sum_k;}  
